@@ -94,6 +94,7 @@ const CountrySelector: React.FC<CountrySelectorProps> = ({ countries, onSelect, 
                     gradient="real-linear"
                     hasBorder={false}
                     hasDropShadow
+                    className='hidden md:block'
                   />
                 )}
               </div>
@@ -148,6 +149,7 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
             gradient="real-linear"
             hasBorderRadius
             hasDropShadow
+            className='hidden md:block'
           />
         </span>
       </div>
@@ -190,13 +192,17 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
             </span>
           </div>
 
-          <div className="space-x-2">
+          <div className="space-x-2 flex flex-col md:flex-row md:items-end">
+          <div>
             <span className="text-6xl font-bold figure-warningColor">
               = {wtpAsPercentOfGDP.toFixed(1)}x 
             </span>
+            </div>
+            <div className='mb-[2px]'>
             <span className="figure-unit">
               Annual GDP 
             </span>
+            </div>
           </div>
         </div>
         
@@ -205,7 +211,9 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
             <span className="text-8xl font-bold figure-mainColor">
               ${Math.round(perCapitaWTP).toLocaleString()}k
             </span>
-            <span className="figure-unit">
+          </div>
+          <div>
+          <span className="figure-unit">
               per capita 
             </span>
           </div>
@@ -263,7 +271,7 @@ const Calculator: React.FC = () => {
   console.log('Available countries:', Object.keys(data));
 
   return (
-    <section className="min-h-screen bg-white text-black p-24">
+    <section className="min-h-screen bg-white text-black p-12 overflow-x-clip">
       {!selectedCountry ? (
         <div className="space-y-12">
           <div className="text-center space-y-6 mb-16">
