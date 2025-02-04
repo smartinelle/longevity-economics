@@ -10,7 +10,6 @@ import {
   SelectValue,
 } from "@/components/select";
 import ImageGenerator from '@/components/image-generator';
-import Flag from 'react-flagpack';
 import socialWtpData from '@/assets/data/social_wtp.json';
 
 // TypeScript interfaces
@@ -29,6 +28,28 @@ interface CountryData {
     };
   };
 }
+
+// Country code conversion mapping
+const countryCodeMap: { [key: string]: string } = {
+  'USA': 'us',
+  'GBR': 'gb',
+  'DEU': 'de',
+  'FRA': 'fr',
+  'ITA': 'it',
+  'ESP': 'es',
+  'JPN': 'jp',
+  'CAN': 'ca',
+  'AUS': 'au',
+  'NLD': 'nl',
+  'SWE': 'se',
+  'NZL': 'nz',
+  'ISR': 'il'
+};
+
+// Helper function to convert 3-letter to 2-letter code
+const convertCountryCode = (code: string): string => {
+  return countryCodeMap[code] || code.toLowerCase();
+};
 
 interface DataType {
   [country: string]: CountryData;
@@ -88,13 +109,12 @@ const CountrySelector: React.FC<CountrySelectorProps> = ({ countries, onSelect, 
               <div className="flex items-center justify-start space-x-2">
                 <h3 className="text-xl font-semibold">{country}</h3>
                 {countryCode && (
-                  <Flag
-                    code={countryCode}
-                    size="S"
-                    gradient="real-linear"
-                    hasBorder={false}
-                    hasDropShadow
-                    className='hidden md:block'
+                  <img 
+                    src={`https://flagcdn.com/${convertCountryCode(countryCode)}.svg`}
+                    width="24"
+                    height="16"
+                    alt={`${country} flag`}
+                    className="inline-block"
                   />
                 )}
               </div>
@@ -142,48 +162,45 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
         <h2 className="text-4xl font-bold inline-block border-b-2 border-blue-500 pb-2">
           {country}
         </h2>
-        <span> 
-          <Flag
-            code={countryCode}
-            size="L"
-            gradient="real-linear"
-            hasBorderRadius
-            hasDropShadow
-            className='hidden md:block'
-          />
-        </span>
+        <img 
+          src={`https://flagcdn.com/${convertCountryCode(countryCode)}.svg`}
+          width="50"
+          alt={`${country} flag`}
+          className="inline-block items-end pb-3"
+        />
       </div>
 
-      <div>
-        <span className="inline-flex text-3xl tracking-tight text-slate-800">
-          Economic Value Unlocked by 
-        </span>
-        <span className="inline-flex px-2"> 
-          <Select value={years.toString()} onValueChange={(value) => setYears(parseInt(value))}>
-            <SelectTrigger className="text-3xl text-slate-800 bg-transparent px-1 py-3 transition-colors justify-between w-[60px]">
-              <SelectValue>{years}</SelectValue>
-            </SelectTrigger>
-            <SelectContent className="border-slate-700 bg-white">
-              {[1,2,3,4,5,6,7,8,9,10].map((value) => (
-                <SelectItem 
-                  key={value} 
-                  value={value.toString()}
-                  className="cursor-pointer"
-                >
-                  {value}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </span>
-        <span className="text-3xl tracking-tight text-slate-800">
-          Additional Year{years > 1 ? 's' : ''} of Healthy Life Expectancy.
-        </span>
-      </div>
+      <div className=''>
+        <div className='mt-6'>
+          <span className="inline-flex text-2xl md:text-3xl tracking-tight text-slate-800">
+            Economic Value Unlocked by 
+          </span>
+          <span className="inline-flex px-2"> 
+            <Select value={years.toString()} onValueChange={(value) => setYears(parseInt(value))}>
+              <SelectTrigger className="text-2xl md:text-3xl text-slate-800 bg-transparent px-1 py-3 transition-colors justify-between w-[60px]">
+                <SelectValue>{years}</SelectValue>
+              </SelectTrigger>
+              <SelectContent className="border-slate-700 bg-white">
+                {[1,2,3,4,5,6,7,8,9,10].map((value) => (
+                  <SelectItem 
+                    key={value} 
+                    value={value.toString()}
+                    className="cursor-pointer"
+                  >
+                    {value}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </span>
+          <span className="text-2xl md:text-3xl tracking-tight text-slate-800">
+            Additional Year{years > 1 ? 's' : ''} of Healthy Life Expectancy.
+          </span>
+        </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 space-y-10">
+      <div className="grid grid-cols-1 md:grid-cols-1 space-y-10 mt-8">
         <div className="flex flex-col items-left space-y-2 text-left">
-          <div className="space-x-2">
+          <div className="space-x-2 flex flex-col">
             <span className="inline-flex text-8xl font-bold figure-mainColor">
               ${totalWTP.toFixed(1)}T
             </span>
@@ -191,14 +208,14 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
               in Total 
             </span>
           </div>
-
-          <div className="space-x-2 flex flex-col md:flex-row md:items-end">
-          <div>
+          
+          <div className="space-x-2">
+            <div>
             <span className="text-6xl font-bold figure-warningColor">
               = {wtpAsPercentOfGDP.toFixed(1)}x 
             </span>
             </div>
-            <div className='mb-[2px]'>
+            <div>
             <span className="figure-unit">
               Annual GDP 
             </span>
@@ -208,17 +225,20 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
         
         <div className="flex flex-col items-left space-y-2 text-right">
           <div className="space-x-2">
+            <div>
             <span className="text-8xl font-bold figure-mainColor">
               ${Math.round(perCapitaWTP).toLocaleString()}k
             </span>
-          </div>
-          <div>
-          <span className="figure-unit">
+            </div>
+            <div>
+            <span className="figure-unit">
               per capita 
             </span>
+            </div>
           </div>
         </div>
       </div>
+      </div> 
 
       <div className="flex justify-end">
         <ImageGenerator 
@@ -254,7 +274,7 @@ const Calculator: React.FC = () => {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [exploredCountries, setExploredCountries] = useState<string[]>([]);
 
-  const handleCountrySelect = (country: string) => {
+  const handleCountrySelect = (country) => {
     setSelectedCountry(country);
     if (!exploredCountries.includes(country)) {
       setExploredCountries([...exploredCountries, country]);
@@ -266,12 +286,8 @@ const Calculator: React.FC = () => {
     });
   };
 
-  // Add console.log to debug data
-  console.log('Data loaded:', data);
-  console.log('Available countries:', Object.keys(data));
-
   return (
-    <section className="min-h-screen bg-white text-black p-12 overflow-x-clip">
+    <section className="min-h-screen bg-white text-black p-8 overflow-x-clip">
       {!selectedCountry ? (
         <div className="space-y-12">
           <div className="text-center space-y-6 mb-16">
