@@ -1,0 +1,938 @@
+{
+  "Australia": {
+    "code": "AUS",
+    "additional_years": {
+      "1": {
+        "wtp_current": 2.245,
+        "wtp_avg": 88.043,
+        "wtp_0": 53.705,
+        "wtp_unborn": 0.743
+      },
+      "2": {
+        "wtp_current": 4.372,
+        "wtp_avg": 171.461,
+        "wtp_0": 102.863,
+        "wtp_unborn": 1.423
+      },
+      "3": {
+        "wtp_current": 6.385,
+        "wtp_avg": 250.406,
+        "wtp_0": 147.841,
+        "wtp_unborn": 2.045
+      },
+      "4": {
+        "wtp_current": 8.289,
+        "wtp_avg": 325.043,
+        "wtp_0": 188.984,
+        "wtp_unborn": 2.614
+      },
+      "5": {
+        "wtp_current": 10.08,
+        "wtp_avg": 395.304,
+        "wtp_0": 226.512,
+        "wtp_unborn": 3.134
+      },
+      "6": {
+        "wtp_current": 11.773,
+        "wtp_avg": 461.687,
+        "wtp_0": 260.848,
+        "wtp_unborn": 3.609
+      },
+      "7": {
+        "wtp_current": 13.369,
+        "wtp_avg": 524.289,
+        "wtp_0": 292.233,
+        "wtp_unborn": 4.043
+      },
+      "8": {
+        "wtp_current": 14.849,
+        "wtp_avg": 582.332,
+        "wtp_0": 320.523,
+        "wtp_unborn": 4.434
+      },
+      "9": {
+        "wtp_current": 16.258,
+        "wtp_avg": 637.583,
+        "wtp_0": 346.604,
+        "wtp_unborn": 4.795
+      },
+      "10": {
+        "wtp_current": 17.585,
+        "wtp_avg": 689.629,
+        "wtp_0": 370.449,
+        "wtp_unborn": 5.125
+      }
+    },
+    "life_expectancy": 83,
+    "VSL": 9.276,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/australia.svg",
+    "text": "Australia has a life expectancy of 83 years and VSL of 9.28M USD",
+    "population": 25.5,
+    "gdp_pc": 46977,
+    "hle": 70.9
+  },
+  "Canada": {
+    "code": "CAN",
+    "additional_years": {
+      "1": {
+        "wtp_current": 3.127,
+        "wtp_avg": 82.865,
+        "wtp_0": 49.424,
+        "wtp_unborn": 0.855
+      },
+      "2": {
+        "wtp_current": 6.137,
+        "wtp_avg": 162.603,
+        "wtp_0": 95.153,
+        "wtp_unborn": 1.646
+      },
+      "3": {
+        "wtp_current": 8.981,
+        "wtp_avg": 237.963,
+        "wtp_0": 136.809,
+        "wtp_unborn": 2.366
+      },
+      "4": {
+        "wtp_current": 11.673,
+        "wtp_avg": 309.274,
+        "wtp_0": 174.859,
+        "wtp_unborn": 3.024
+      },
+      "5": {
+        "wtp_current": 14.231,
+        "wtp_avg": 377.061,
+        "wtp_0": 209.75,
+        "wtp_unborn": 3.628
+      },
+      "6": {
+        "wtp_current": 16.631,
+        "wtp_avg": 440.642,
+        "wtp_0": 241.436,
+        "wtp_unborn": 4.176
+      },
+      "7": {
+        "wtp_current": 18.921,
+        "wtp_avg": 501.32,
+        "wtp_0": 270.621,
+        "wtp_unborn": 4.681
+      },
+      "8": {
+        "wtp_current": 21.039,
+        "wtp_avg": 557.437,
+        "wtp_0": 296.83,
+        "wtp_unborn": 5.134
+      },
+      "9": {
+        "wtp_current": 23.08,
+        "wtp_avg": 611.519,
+        "wtp_0": 321.216,
+        "wtp_unborn": 5.556
+      },
+      "10": {
+        "wtp_current": 24.929,
+        "wtp_avg": 660.519,
+        "wtp_0": 342.705,
+        "wtp_unborn": 5.927
+      }
+    },
+    "life_expectancy": 82.2,
+    "VSL": 8.571,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/canada.svg",
+    "text": "Canada has a life expectancy of 82.2 years and VSL of 8.57M USD",
+    "population": 37.74,
+    "gdp_pc": 43405,
+    "hle": 71.3
+  },
+  "France": {
+    "code": "FRA",
+    "additional_years": {
+      "1": {
+        "wtp_current": 4.98,
+        "wtp_avg": 76.295,
+        "wtp_0": 45.802,
+        "wtp_unborn": 1.238
+      },
+      "2": {
+        "wtp_current": 9.734,
+        "wtp_avg": 149.122,
+        "wtp_0": 87.784,
+        "wtp_unborn": 2.373
+      },
+      "3": {
+        "wtp_current": 14.255,
+        "wtp_avg": 218.396,
+        "wtp_0": 126.197,
+        "wtp_unborn": 3.411
+      },
+      "4": {
+        "wtp_current": 18.668,
+        "wtp_avg": 285.994,
+        "wtp_0": 162.218,
+        "wtp_unborn": 4.385
+      },
+      "5": {
+        "wtp_current": 22.76,
+        "wtp_avg": 348.694,
+        "wtp_0": 194.468,
+        "wtp_unborn": 5.257
+      },
+      "6": {
+        "wtp_current": 26.679,
+        "wtp_avg": 408.728,
+        "wtp_0": 224.174,
+        "wtp_unborn": 6.06
+      },
+      "7": {
+        "wtp_current": 30.33,
+        "wtp_avg": 464.658,
+        "wtp_0": 250.969,
+        "wtp_unborn": 6.784
+      },
+      "8": {
+        "wtp_current": 33.858,
+        "wtp_avg": 518.715,
+        "wtp_0": 275.886,
+        "wtp_unborn": 7.458
+      },
+      "9": {
+        "wtp_current": 37.083,
+        "wtp_avg": 568.114,
+        "wtp_0": 297.99,
+        "wtp_unborn": 8.055
+      },
+      "10": {
+        "wtp_current": 40.25,
+        "wtp_avg": 616.631,
+        "wtp_0": 318.894,
+        "wtp_unborn": 8.621
+      }
+    },
+    "life_expectancy": 82.5,
+    "VSL": 8.075,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/france.svg",
+    "text": "France has a life expectancy of 82.5 years and VSL of 8.07M USD",
+    "population": 65.27,
+    "gdp_pc": 40894,
+    "hle": 72.1
+  },
+  "Germany": {
+    "code": "DEU",
+    "additional_years": {
+      "1": {
+        "wtp_current": 7.602,
+        "wtp_avg": 90.733,
+        "wtp_0": 54.521,
+        "wtp_unborn": 1.565
+      },
+      "2": {
+        "wtp_current": 14.873,
+        "wtp_avg": 177.514,
+        "wtp_0": 104.427,
+        "wtp_unborn": 2.998
+      },
+      "3": {
+        "wtp_current": 21.82,
+        "wtp_avg": 260.436,
+        "wtp_0": 150.103,
+        "wtp_unborn": 4.309
+      },
+      "4": {
+        "wtp_current": 28.454,
+        "wtp_avg": 339.61,
+        "wtp_0": 191.913,
+        "wtp_unborn": 5.509
+      },
+      "5": {
+        "wtp_current": 34.744,
+        "wtp_avg": 414.686,
+        "wtp_0": 230.025,
+        "wtp_unborn": 6.603
+      },
+      "6": {
+        "wtp_current": 40.76,
+        "wtp_avg": 486.488,
+        "wtp_0": 264.996,
+        "wtp_unborn": 7.607
+      },
+      "7": {
+        "wtp_current": 46.402,
+        "wtp_avg": 553.825,
+        "wtp_0": 296.63,
+        "wtp_unborn": 8.515
+      },
+      "8": {
+        "wtp_current": 51.83,
+        "wtp_avg": 618.615,
+        "wtp_0": 325.846,
+        "wtp_unborn": 9.354
+      },
+      "9": {
+        "wtp_current": 56.835,
+        "wtp_avg": 678.357,
+        "wtp_0": 351.904,
+        "wtp_unborn": 10.102
+      },
+      "10": {
+        "wtp_current": 61.712,
+        "wtp_avg": 736.559,
+        "wtp_0": 376.285,
+        "wtp_unborn": 10.802
+      }
+    },
+    "life_expectancy": 81.7,
+    "VSL": 9.302,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/germany.svg",
+    "text": "Germany has a life expectancy of 81.7 years and VSL of 9.30M USD",
+    "population": 83.78,
+    "gdp_pc": 47111,
+    "hle": 70.9
+  },
+  "Israel": {
+    "code": "ISR",
+    "additional_years": {
+      "1": {
+        "wtp_current": 0.595,
+        "wtp_avg": 68.764,
+        "wtp_0": 42.943,
+        "wtp_unborn": 0.329
+      },
+      "2": {
+        "wtp_current": 1.157,
+        "wtp_avg": 133.628,
+        "wtp_0": 82.322,
+        "wtp_unborn": 0.63
+      },
+      "3": {
+        "wtp_current": 1.684,
+        "wtp_avg": 194.603,
+        "wtp_0": 118.355,
+        "wtp_unborn": 0.906
+      },
+      "4": {
+        "wtp_current": 2.183,
+        "wtp_avg": 252.175,
+        "wtp_0": 151.45,
+        "wtp_unborn": 1.159
+      },
+      "5": {
+        "wtp_current": 2.648,
+        "wtp_avg": 305.893,
+        "wtp_0": 181.574,
+        "wtp_unborn": 1.389
+      },
+      "6": {
+        "wtp_current": 3.104,
+        "wtp_avg": 358.634,
+        "wtp_0": 210.355,
+        "wtp_unborn": 1.609
+      },
+      "7": {
+        "wtp_current": 3.512,
+        "wtp_avg": 405.806,
+        "wtp_0": 235.515,
+        "wtp_unborn": 1.802
+      },
+      "8": {
+        "wtp_current": 3.904,
+        "wtp_avg": 451.061,
+        "wtp_0": 259,
+        "wtp_unborn": 1.982
+      },
+      "9": {
+        "wtp_current": 4.258,
+        "wtp_avg": 491.936,
+        "wtp_0": 279.775,
+        "wtp_unborn": 2.14
+      },
+      "10": {
+        "wtp_current": 4.585,
+        "wtp_avg": 529.727,
+        "wtp_0": 298.534,
+        "wtp_unborn": 2.284
+      }
+    },
+    "life_expectancy": 82.6,
+    "VSL": 7.614,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/israel.svg",
+    "text": "Israel has a life expectancy of 82.6 years and VSL of 7.61M USD",
+    "population": 8.66,
+    "gdp_pc": 38558,
+    "hle": 72.4
+  },
+  "Italy": {
+    "code": "ITA",
+    "additional_years": {
+      "1": {
+        "wtp_current": 4.052,
+        "wtp_avg": 67.016,
+        "wtp_0": 39.429,
+        "wtp_unborn": 0.604
+      },
+      "2": {
+        "wtp_current": 7.933,
+        "wtp_avg": 131.2,
+        "wtp_0": 75.552,
+        "wtp_unborn": 1.158
+      },
+      "3": {
+        "wtp_current": 11.646,
+        "wtp_avg": 192.622,
+        "wtp_0": 108.651,
+        "wtp_unborn": 1.666
+      },
+      "4": {
+        "wtp_current": 15.178,
+        "wtp_avg": 251.038,
+        "wtp_0": 138.876,
+        "wtp_unborn": 2.129
+      },
+      "5": {
+        "wtp_current": 18.561,
+        "wtp_avg": 306.981,
+        "wtp_0": 166.622,
+        "wtp_unborn": 2.554
+      },
+      "6": {
+        "wtp_current": 21.744,
+        "wtp_avg": 359.633,
+        "wtp_0": 191.788,
+        "wtp_unborn": 2.94
+      },
+      "7": {
+        "wtp_current": 24.807,
+        "wtp_avg": 410.299,
+        "wtp_0": 215.013,
+        "wtp_unborn": 3.296
+      },
+      "8": {
+        "wtp_current": 27.646,
+        "wtp_avg": 457.244,
+        "wtp_0": 235.822,
+        "wtp_unborn": 3.615
+      },
+      "9": {
+        "wtp_current": 30.406,
+        "wtp_avg": 502.901,
+        "wtp_0": 255.24,
+        "wtp_unborn": 3.913
+      },
+      "10": {
+        "wtp_current": 32.909,
+        "wtp_avg": 544.291,
+        "wtp_0": 272.295,
+        "wtp_unborn": 4.174
+      }
+    },
+    "life_expectancy": 83,
+    "VSL": 6.947,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/italy.svg",
+    "text": "Italy has a life expectancy of 83 years and VSL of 6.95M USD",
+    "population": 60.46,
+    "gdp_pc": 35184,
+    "hle": 71.9
+  },
+  "Japan": {
+    "code": "JPN",
+    "additional_years": {
+      "1": {
+        "wtp_current": 9.481,
+        "wtp_avg": 74.966,
+        "wtp_0": 42.938,
+        "wtp_unborn": 1.3
+      },
+      "2": {
+        "wtp_current": 18.685,
+        "wtp_avg": 147.734,
+        "wtp_0": 82.711,
+        "wtp_unborn": 2.504
+      },
+      "3": {
+        "wtp_current": 27.495,
+        "wtp_avg": 217.396,
+        "wtp_0": 119.072,
+        "wtp_unborn": 3.605
+      },
+      "4": {
+        "wtp_current": 35.885,
+        "wtp_avg": 283.727,
+        "wtp_0": 152.275,
+        "wtp_unborn": 4.61
+      },
+      "5": {
+        "wtp_current": 43.99,
+        "wtp_avg": 347.811,
+        "wtp_0": 182.927,
+        "wtp_unborn": 5.538
+      },
+      "6": {
+        "wtp_current": 51.603,
+        "wtp_avg": 408.001,
+        "wtp_0": 210.664,
+        "wtp_unborn": 6.378
+      },
+      "7": {
+        "wtp_current": 59.026,
+        "wtp_avg": 466.699,
+        "wtp_0": 236.524,
+        "wtp_unborn": 7.16
+      },
+      "8": {
+        "wtp_current": 65.863,
+        "wtp_avg": 520.753,
+        "wtp_0": 259.557,
+        "wtp_unborn": 7.858
+      },
+      "9": {
+        "wtp_current": 72.294,
+        "wtp_avg": 571.603,
+        "wtp_0": 280.429,
+        "wtp_unborn": 8.49
+      },
+      "10": {
+        "wtp_current": 78.708,
+        "wtp_avg": 622.31,
+        "wtp_0": 300.376,
+        "wtp_unborn": 9.093
+      }
+    },
+    "life_expectancy": 84.3,
+    "VSL": 7.97,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/japan.svg",
+    "text": "Japan has a life expectancy of 84.3 years and VSL of 7.97M USD",
+    "population": 126.48,
+    "gdp_pc": 40362,
+    "hle": 74.1
+  },
+  "Netherlands": {
+    "code": "NLD",
+    "additional_years": {
+      "1": {
+        "wtp_current": 1.723,
+        "wtp_avg": 100.579,
+        "wtp_0": 59.958,
+        "wtp_unborn": 0.385
+      },
+      "2": {
+        "wtp_current": 3.368,
+        "wtp_avg": 196.538,
+        "wtp_0": 114.875,
+        "wtp_unborn": 0.737
+      },
+      "3": {
+        "wtp_current": 4.935,
+        "wtp_avg": 288.004,
+        "wtp_0": 165.175,
+        "wtp_unborn": 1.06
+      },
+      "4": {
+        "wtp_current": 6.422,
+        "wtp_avg": 374.79,
+        "wtp_0": 211.134,
+        "wtp_unborn": 1.355
+      },
+      "5": {
+        "wtp_current": 7.84,
+        "wtp_avg": 457.532,
+        "wtp_0": 253.297,
+        "wtp_unborn": 1.625
+      },
+      "6": {
+        "wtp_current": 9.173,
+        "wtp_avg": 535.332,
+        "wtp_0": 291.601,
+        "wtp_unborn": 1.871
+      },
+      "7": {
+        "wtp_current": 10.428,
+        "wtp_avg": 608.593,
+        "wtp_0": 326.444,
+        "wtp_unborn": 2.095
+      },
+      "8": {
+        "wtp_current": 11.633,
+        "wtp_avg": 678.894,
+        "wtp_0": 358.655,
+        "wtp_unborn": 2.301
+      },
+      "9": {
+        "wtp_current": 12.74,
+        "wtp_avg": 743.512,
+        "wtp_0": 387.381,
+        "wtp_unborn": 2.486
+      },
+      "10": {
+        "wtp_current": 13.817,
+        "wtp_avg": 806.364,
+        "wtp_0": 414.317,
+        "wtp_unborn": 2.659
+      }
+    },
+    "life_expectancy": 81.8,
+    "VSL": 10.34,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/netherlands.svg",
+    "text": "Netherlands has a life expectancy of 81.8 years and VSL of 10.34M USD",
+    "population": 17.13,
+    "gdp_pc": 52365,
+    "hle": 71.4
+  },
+  "New Zealand": {
+    "code": "NZL",
+    "additional_years": {
+      "1": {
+        "wtp_current": 0.37,
+        "wtp_avg": 76.728,
+        "wtp_0": 47.308,
+        "wtp_unborn": 0.109
+      },
+      "2": {
+        "wtp_current": 0.721,
+        "wtp_avg": 149.499,
+        "wtp_0": 90.587,
+        "wtp_unborn": 0.208
+      },
+      "3": {
+        "wtp_current": 1.053,
+        "wtp_avg": 218.433,
+        "wtp_0": 130.164,
+        "wtp_unborn": 0.299
+      },
+      "4": {
+        "wtp_current": 1.368,
+        "wtp_avg": 283.668,
+        "wtp_0": 166.349,
+        "wtp_unborn": 0.382
+      },
+      "5": {
+        "wtp_current": 1.664,
+        "wtp_avg": 345.125,
+        "wtp_0": 199.338,
+        "wtp_unborn": 0.457
+      },
+      "6": {
+        "wtp_current": 1.945,
+        "wtp_avg": 403.25,
+        "wtp_0": 229.51,
+        "wtp_unborn": 0.526
+      },
+      "7": {
+        "wtp_current": 2.209,
+        "wtp_avg": 458.122,
+        "wtp_0": 257.083,
+        "wtp_unborn": 0.59
+      },
+      "8": {
+        "wtp_current": 2.467,
+        "wtp_avg": 511.593,
+        "wtp_0": 283.236,
+        "wtp_unborn": 0.65
+      },
+      "9": {
+        "wtp_current": 2.702,
+        "wtp_avg": 560.317,
+        "wtp_0": 306.235,
+        "wtp_unborn": 0.702
+      },
+      "10": {
+        "wtp_current": 2.924,
+        "wtp_avg": 606.256,
+        "wtp_0": 327.259,
+        "wtp_unborn": 0.751
+      }
+    },
+    "life_expectancy": 82,
+    "VSL": 8.022,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/new zealand.svg",
+    "text": "New Zealand has a life expectancy of 82 years and VSL of 8.02M USD",
+    "population": 4.82,
+    "gdp_pc": 40628,
+    "hle": 70.2
+  },
+  "Spain": {
+    "code": "ESP",
+    "additional_years": {
+      "1": {
+        "wtp_current": 3.051,
+        "wtp_avg": 65.259,
+        "wtp_0": 38.192,
+        "wtp_unborn": 0.5
+      },
+      "2": {
+        "wtp_current": 5.96,
+        "wtp_avg": 127.468,
+        "wtp_0": 73.171,
+        "wtp_unborn": 0.957
+      },
+      "3": {
+        "wtp_current": 8.733,
+        "wtp_avg": 186.777,
+        "wtp_0": 105.228,
+        "wtp_unborn": 1.377
+      },
+      "4": {
+        "wtp_current": 11.375,
+        "wtp_avg": 243.288,
+        "wtp_0": 134.615,
+        "wtp_unborn": 1.761
+      },
+      "5": {
+        "wtp_current": 13.866,
+        "wtp_avg": 296.575,
+        "wtp_0": 161.366,
+        "wtp_unborn": 2.111
+      },
+      "6": {
+        "wtp_current": 16.251,
+        "wtp_avg": 347.584,
+        "wtp_0": 186.007,
+        "wtp_unborn": 2.434
+      },
+      "7": {
+        "wtp_current": 18.471,
+        "wtp_avg": 395.053,
+        "wtp_0": 208.218,
+        "wtp_unborn": 2.724
+      },
+      "8": {
+        "wtp_current": 20.613,
+        "wtp_avg": 440.879,
+        "wtp_0": 228.856,
+        "wtp_unborn": 2.994
+      },
+      "9": {
+        "wtp_current": 22.57,
+        "wtp_avg": 482.724,
+        "wtp_0": 247.154,
+        "wtp_unborn": 3.234
+      },
+      "10": {
+        "wtp_current": 24.486,
+        "wtp_avg": 523.72,
+        "wtp_0": 264.42,
+        "wtp_unborn": 3.46
+      }
+    },
+    "life_expectancy": 83.2,
+    "VSL": 6.763,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/spain.svg",
+    "text": "Spain has a life expectancy of 83.2 years and VSL of 6.76M USD",
+    "population": 46.75,
+    "gdp_pc": 34250,
+    "hle": 72.1
+  },
+  "Sweden": {
+    "code": "SWE",
+    "additional_years": {
+      "1": {
+        "wtp_current": 0.95,
+        "wtp_avg": 94.111,
+        "wtp_0": 56.535,
+        "wtp_unborn": 0.271
+      },
+      "2": {
+        "wtp_current": 1.856,
+        "wtp_avg": 183.779,
+        "wtp_0": 108.319,
+        "wtp_unborn": 0.519
+      },
+      "3": {
+        "wtp_current": 2.719,
+        "wtp_avg": 269.196,
+        "wtp_0": 155.767,
+        "wtp_unborn": 0.746
+      },
+      "4": {
+        "wtp_current": 3.536,
+        "wtp_avg": 350.165,
+        "wtp_0": 199.122,
+        "wtp_unborn": 0.953
+      },
+      "5": {
+        "wtp_current": 4.316,
+        "wtp_avg": 427.316,
+        "wtp_0": 238.903,
+        "wtp_unborn": 1.144
+      },
+      "6": {
+        "wtp_current": 5.048,
+        "wtp_avg": 499.79,
+        "wtp_0": 275.035,
+        "wtp_unborn": 1.317
+      },
+      "7": {
+        "wtp_current": 5.748,
+        "wtp_avg": 569.182,
+        "wtp_0": 308.364,
+        "wtp_unborn": 1.476
+      },
+      "8": {
+        "wtp_current": 6.397,
+        "wtp_avg": 633.419,
+        "wtp_0": 338.286,
+        "wtp_unborn": 1.62
+      },
+      "9": {
+        "wtp_current": 7.025,
+        "wtp_avg": 695.61,
+        "wtp_0": 366.203,
+        "wtp_unborn": 1.753
+      },
+      "10": {
+        "wtp_current": 7.594,
+        "wtp_avg": 751.953,
+        "wtp_0": 390.777,
+        "wtp_unborn": 1.871
+      }
+    },
+    "life_expectancy": 82.4,
+    "VSL": 9.889,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/sweden.svg",
+    "text": "Sweden has a life expectancy of 82.4 years and VSL of 9.89M USD",
+    "population": 10.1,
+    "gdp_pc": 50080,
+    "hle": 71.9
+  },
+  "United Kingdom": {
+    "code": "GBR",
+    "additional_years": {
+      "1": {
+        "wtp_current": 5.06,
+        "wtp_avg": 74.53,
+        "wtp_0": 45.919,
+        "wtp_unborn": 1.367
+      },
+      "2": {
+        "wtp_current": 9.875,
+        "wtp_avg": 145.465,
+        "wtp_0": 87.929,
+        "wtp_unborn": 2.618
+      },
+      "3": {
+        "wtp_current": 14.449,
+        "wtp_avg": 212.844,
+        "wtp_0": 126.331,
+        "wtp_unborn": 3.761
+      },
+      "4": {
+        "wtp_current": 18.793,
+        "wtp_avg": 276.834,
+        "wtp_0": 161.445,
+        "wtp_unborn": 4.806
+      },
+      "5": {
+        "wtp_current": 22.916,
+        "wtp_avg": 337.56,
+        "wtp_0": 193.551,
+        "wtp_unborn": 5.762
+      },
+      "6": {
+        "wtp_current": 26.793,
+        "wtp_avg": 394.676,
+        "wtp_0": 222.724,
+        "wtp_unborn": 6.631
+      },
+      "7": {
+        "wtp_current": 30.484,
+        "wtp_avg": 449.047,
+        "wtp_0": 249.487,
+        "wtp_unborn": 7.428
+      },
+      "8": {
+        "wtp_current": 33.914,
+        "wtp_avg": 499.567,
+        "wtp_0": 273.572,
+        "wtp_unborn": 8.145
+      },
+      "9": {
+        "wtp_current": 37.384,
+        "wtp_avg": 550.681,
+        "wtp_0": 297.176,
+        "wtp_unborn": 8.847
+      },
+      "10": {
+        "wtp_current": 40.509,
+        "wtp_avg": 596.725,
+        "wtp_0": 317.627,
+        "wtp_unborn": 9.456
+      }
+    },
+    "life_expectancy": 81.4,
+    "VSL": 7.726,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/united kingdom.svg",
+    "text": "United Kingdom has a life expectancy of 81.4 years and VSL of 7.73M USD",
+    "population": 67.89,
+    "gdp_pc": 39126,
+    "hle": 70.1
+  },
+  "United States of America": {
+    "code": "USA",
+    "additional_years": {
+      "1": {
+        "wtp_current": 38.406,
+        "wtp_avg": 116.03,
+        "wtp_0": 75.791,
+        "wtp_unborn": 12.545
+      },
+      "2": {
+        "wtp_current": 74.864,
+        "wtp_avg": 226.173,
+        "wtp_0": 144.917,
+        "wtp_unborn": 23.987
+      },
+      "3": {
+        "wtp_current": 109.426,
+        "wtp_avg": 330.589,
+        "wtp_0": 207.93,
+        "wtp_unborn": 34.417
+      },
+      "4": {
+        "wtp_current": 142.145,
+        "wtp_avg": 429.437,
+        "wtp_0": 265.332,
+        "wtp_unborn": 43.919
+      },
+      "5": {
+        "wtp_current": 173.073,
+        "wtp_avg": 522.875,
+        "wtp_0": 317.582,
+        "wtp_unborn": 52.567
+      },
+      "6": {
+        "wtp_current": 202.264,
+        "wtp_avg": 611.064,
+        "wtp_0": 365.098,
+        "wtp_unborn": 60.432
+      },
+      "7": {
+        "wtp_current": 229.775,
+        "wtp_avg": 694.178,
+        "wtp_0": 408.269,
+        "wtp_unborn": 67.578
+      },
+      "8": {
+        "wtp_current": 255.67,
+        "wtp_avg": 772.41,
+        "wtp_0": 447.456,
+        "wtp_unborn": 74.064
+      },
+      "9": {
+        "wtp_current": 280.021,
+        "wtp_avg": 845.978,
+        "wtp_0": 483.003,
+        "wtp_unborn": 79.948
+      },
+      "10": {
+        "wtp_current": 302.683,
+        "wtp_avg": 914.443,
+        "wtp_0": 514.958,
+        "wtp_unborn": 85.237
+      }
+    },
+    "life_expectancy": 78.5,
+    "VSL": 11.5,
+    "flag": "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/united states of america.svg",
+    "text": "United States of America has a life expectancy of 78.5 years and VSL of 11.50M USD",
+    "population": 331,
+    "gdp_pc": 58241,
+    "hle": 66.1
+  }
+}
