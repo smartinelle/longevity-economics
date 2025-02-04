@@ -246,7 +246,7 @@ const Calculator: React.FC = () => {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [exploredCountries, setExploredCountries] = useState<string[]>([]);
 
-  const handleCountrySelect = (country) => {
+  const handleCountrySelect = (country: string) => {
     setSelectedCountry(country);
     if (!exploredCountries.includes(country)) {
       setExploredCountries([...exploredCountries, country]);

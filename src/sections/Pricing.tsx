@@ -68,7 +68,6 @@ export const Pricing = () => {
           {pricingTiers.map(({
             id,
             title, 
-            monthlyPrice, 
             buttonText, 
             popular, 
             inverse, 

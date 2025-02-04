@@ -43,7 +43,7 @@ const TestimonialsColumn = (props: {
   testimonials: typeof testimonials
 }) => (
     <div className="flex flex-col md:flex-row gap-6 mt-10">
-      {props.testimonials.map(({ id, bio, imageSrc, name, username, linkedIn, website }) => (
+      {props.testimonials.map(({ id, bio, imageSrc, name, username, linkedIn }) => (
         <div key={id} className="card">
           <div className="flex items-center gap-2 mt-5"> 
             <Image 

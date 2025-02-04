@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, FormEvent } from 'react';
 import ArrowRight from '@/assets/arrow-right.svg';
 import starImage from '@/assets/star.png';
 import springImage from '@/assets/spring.png';
@@ -12,7 +12,7 @@ export const CallToAction = () => {
   const [status, setStatus] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
     setStatus('');
@@ -36,9 +36,13 @@ export const CallToAction = () => {
       } else {
         throw new Error(data.error || 'Subscription failed');
       }
-    } catch (err) {
+    } catch (err: unknown) {
       console.error('Subscription error:', err);
-      setStatus(err.message || 'Error subscribing. Please try again.');
+      if (err instanceof Error) {
+        setStatus(err.message);
+      } else {
+        setStatus('Error subscribing. Please try again.');
+      }
     } finally {
       setLoading(false);
     }
