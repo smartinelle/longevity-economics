@@ -26,7 +26,7 @@ export const Footer = () => {
           <a href="#">Help</a>
           <a href="#">Careers</a>
         </nav>*/}
-        <div className="flex justify-center gap-6 mt-6">
+        <div className="flex justify-center items-center gap-6 mt-6">
           <a href="https://x.com/longeconinst" target="_blank" rel="noopener noreferrer">
           <SocialX />
           </a>
