@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="bg-black text-[#BCBCBC] text-sm py-10 text-center">
       <div className="container">
-        <div className="inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:w-full before:blur before:bg-[linear-gradient(to_right, #F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute">
+        <div className="inline-flex relative before:content-[''] before:top-0 before:bottom-0 before:w-full before:blur before:bg-slate-100 before:absolute">
         <Image 
         src={logo}
         height={50}
@@ -27,7 +27,7 @@ export const Footer = () => {
           <a href="#">Careers</a>
         </nav>*/}
         <div className="flex justify-center items-center gap-6 mt-6">
-          <a href="https://x.com/longeconinst" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/longeconinst" target="_blank" rel="noopener noreferrer" className="pt-1">
           <SocialX />
           </a>
           <a href="https://www.linkedin.com/company/longecon/" target="_blank" rel="noopener noreferrer">
