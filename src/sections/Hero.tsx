@@ -5,10 +5,18 @@ import pyramidImage from '@/assets/pyramid.png';
 import Image from 'next/image';
 import designer3Image from '@/assets/designer_3.png';
 import noodleImage from '@/assets/noodle.png';
-import {motion, useScroll} from 'framer-motion'
+import {motion, useScroll, useTransform, useMotionValueEvent} from 'framer-motion'
 import Link from "next/link";
+import { useRef } from "react";
 
 export const Hero = () => {
+  const heroRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: heroRef,
+    offset: ["start end", "end start"],
+  });
+  const translateY = useTransform(scrollYProgress, [0,1], [150, -150]); 
+
   return (
     <section id="about" className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] overflow-x-clip">
       <div className="container">
@@ -49,17 +57,25 @@ export const Hero = () => {
                 ease: "easeInOut",
               }}
               />
-              <Image 
-              src={pyramidImage} 
+              <motion.img
+              src={pyramidImage.src} 
               alt="Pyramid Image" 
               width={180}
-              height={220}
-              className='hidden md:block -top-0 -left-32 md:absolute'/>
-              <Image 
-              src={noodleImage} 
+              className='hidden md:block -top-24 -left-28 md:absolute'
+              style={{
+                translateY: translateY,
+              }}
+              />
+              <motion.img 
+              src={noodleImage.src} 
               alt="Noodle Image" 
               width={220}
-              className='hidden absolute lg:block top-[524px] left-[448px] rotate-[30deg]'/>
+              className='hidden absolute lg:block top-[470px] left-[448px] rotate-[30deg]'
+              style={{
+                rotate: 30,
+                translateY: translateY,
+              }}
+              />
             </div>
         </div>
       </div>

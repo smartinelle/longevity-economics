@@ -135,7 +135,7 @@ const CountrySelector: React.FC<CountrySelectorProps> = ({ countries, onSelect, 
 
 const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) => {
   const [years, setYears] = useState<number>(5);
-  const [openSection, setOpenSection] = useState<string | null>(null);
+  const [openSection, setOpenSection] = useState<string | null>('methodology');
 
   const countryData = data[country];
   const selectedData = countryData.additional_years[years];
