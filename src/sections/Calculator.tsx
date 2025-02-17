@@ -263,10 +263,10 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
               is more valuable than in the future. Additionally, the utility agents derive from consumption and leisure is modulated by their health status 
               (capturing improvements in healthspan) and survival rate at any given age (capturing improvements in lifespan). 
               <br /> <br /> 
-              To translate this into real-world insights, the model is calibrated using the value of a statistical life (VSL), which quantifies society's willingness to pay 
+              To translate this into real-world insights, the model is calibrated using the value of a statistical life (VSL), which quantifies society&apos;s willingness to pay 
               for preserving one life. In {country}, the VSL is estimated to be ${vsl.toFixed(1)}M. 
               <br /> <br /> 
-              To obtain national-level aggregates, the willingness to pay for extending one individual's life is multiplied by the number of citizen in the country. 
+              To obtain national-level aggregates, the willingness to pay for extending one individual&apos;s life is multiplied by the number of citizen in the country. 
               To this, we add the benefits of adding healthspan for unborn generations, according to population projections from the United Nations (World Population Prospects 2019). 
               In {country}, the population in 2020 was {countryData.population.toFixed(0)}M. The willingness to pay for {years} years of additional healthy lifespan for present generations 
               was ${selectedData.wtp_current.toFixed(1)}T, and the willingness to pay for {years} years of additional healthy lifespan for future generations 
