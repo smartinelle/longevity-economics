@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
+import Image from 'next/image';
 import {
   Select,
   SelectContent,
@@ -109,10 +110,10 @@ const CountrySelector: React.FC<CountrySelectorProps> = ({ countries, onSelect, 
               <div className="flex items-center justify-start space-x-2">
                 <h3 className="text-xl font-semibold">{country}</h3>
                 {countryCode && (
-                  <img 
+                  <Image 
                     src={`https://flagcdn.com/${convertCountryCode(countryCode)}.svg`}
-                    width="24"
-                    height="16"
+                    width={24}
+                    height={16}
                     alt={`${country} flag`}
                     className="inline-block"
                   />
@@ -162,9 +163,10 @@ const WTPCalculator: React.FC<WTPCalculatorProps> = ({ country, data, onBack }) 
         <h2 className="text-4xl font-bold inline-block border-b-2 border-blue-500 pb-2">
           {country}
         </h2>
-        <img 
+        <Image 
           src={`https://flagcdn.com/${convertCountryCode(countryCode)}.svg`}
-          width="50"
+          width={50}
+          height={33}
           alt={`${country} flag`}
           className="inline-block items-end pb-3"
         />
@@ -332,4 +334,3 @@ const Calculator: React.FC = () => {
 };
 
 export default Calculator;
-

@@ -58,6 +58,11 @@ interface ImageGeneratorProps {
       canvas.height = BASE_HEIGHT * SCALE_FACTOR;
       const ctx = canvas.getContext('2d');
       
+      if (!ctx) {
+        console.error('Failed to get canvas context');
+        return;
+      }
+
       try {
         const flag = new Image();
         flag.crossOrigin = 'anonymous'; // Add crossOrigin attribute
@@ -71,11 +76,6 @@ interface ImageGeneratorProps {
         console.error('Failed to load flag:', error);
       }
 
-      if (!ctx) {
-        console.error('Failed to get canvas context');
-        return;
-      }
-  
       // Scale all drawing operations
       ctx.scale(SCALE_FACTOR, SCALE_FACTOR);
       
@@ -115,19 +115,6 @@ interface ImageGeneratorProps {
       ctx.fillStyle = COLORS.text;
       ctx.fillText(country, 95, 70); // Adjusted position
 
-      // Flag - using local API endpoint
-      try {
-        const flag = new Image();
-        await new Promise<void>((resolve, reject) => {
-          flag.onload = () => resolve();
-          flag.onerror = reject;
-          flag.src = `/api/flags/${transformedCountryCode}`;
-        });
-        ctx.drawImage(flag, 30, 40, 45, 30); // Adjusted position
-      } catch (error) {
-        console.error('Failed to load flag:', error);
-      }
-      
       // Header text - moved down and adjusted color
       ctx.font = '26px Inter';
       ctx.fillStyle = COLORS.text;
