@@ -63,25 +63,26 @@ interface ImageGeneratorProps {
         return;
       }
 
-      try {
-        const flag = new Image();
-        flag.crossOrigin = 'anonymous'; // Add crossOrigin attribute
-        await new Promise<void>((resolve, reject) => {
-          flag.onload = () => resolve();
-          flag.onerror = reject;
-          flag.src = `/api/flags/${transformedCountryCode}`;
-        });
-        ctx.drawImage(flag, 30, 40, 45, 30);
-      } catch (error) {
-        console.error('Failed to load flag:', error);
-      }
-
       // Scale all drawing operations
       ctx.scale(SCALE_FACTOR, SCALE_FACTOR);
       
       // Background - changed to white
       ctx.fillStyle = '#ffffff';
       ctx.fillRect(0, 0, BASE_WIDTH, BASE_HEIGHT);
+
+      // Load and draw flag
+      try {
+        const flag = new Image();
+        flag.crossOrigin = 'anonymous';
+        await new Promise<void>((resolve, reject) => {
+          flag.onload = () => resolve();
+          flag.onerror = reject;
+          flag.src = `/api/flags/${transformedCountryCode}/`;
+        });
+        ctx.drawImage(flag, 30, 40, 45, 30);
+      } catch (error) {
+        console.error('Failed to load flag:', error);
+      }
       
       // Load and draw logo
       try {
