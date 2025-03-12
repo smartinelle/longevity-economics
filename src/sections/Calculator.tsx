@@ -115,7 +115,7 @@ const CountrySelector: React.FC<CountrySelectorProps> = ({ countries, onSelect, 
                     width={24}
                     height={16}
                     alt={`${country} flag`}
-                    className="inline-block"
+                    className="inline-block shadow-md"
                   />
                 )}
               </div>
